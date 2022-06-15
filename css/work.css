@@ -1,0 +1,27 @@
+body * {
+  box-sizing: border-box;
+}
+.title{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'DotGothic16', sans-serif;
+  color: #000;
+}
+.menu {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+}
+header ul li {
+  display: flex;
+  flex: 1;
+}
+.button{
+  flex: auto;
+  text-align: center;
+  margin: 0 10px;
+  color: #000;
+  font-size: 0.7em;
+}

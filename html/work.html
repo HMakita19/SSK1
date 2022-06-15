@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;family=DotGothic16&amp;family=EB+Garamond&amp;family=Gilda+Display&amp;family=Holtwood+One+SC&amp;family=Press+Start+2P&amp;family=Rubik+Glitch&amp;display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sanitize.css">
+    <link rel="stylesheet" href="../css/work.css">
+
+    <title>佐々木拓人</title>
+  </head>
+
+  <body>
+    <div class="container wrapper">
+      <div class="container-fluid">
+        <header>
+          <div class="row align-items-center ">
+            <div class="col-md-7 text-sm-center">
+              <h1 class="title">SASAKI TAKUTO</h1>
+            </div>
+            <div class="col-md-5 .d-flex">
+              <ul class="menu">
+                <li><a href="index.html" class="button">トップ</a></li>
+                <li><a href="html/gallert.html" class="button">作品紹介</a></li>
+                <li><a href="html/profile.html" class="button">プロフィール</a></li>
+                <li><a href="html/work.html" class="button">コンテンツ</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+      <hr>
+
+      <main>
+        <article>
+          <section>
+            <div>
+              <h2>仕事のご依頼はCloudWorksにて発注して頂くか、下記フォームで"仕事の依頼、見積り"など
+                と選択して頂きますと入力されたメールアドレスに追って返信致します。</h2>
+              <p>※なおタスクの状況によっては返信に数日かかる場合がございますのでご了承下さい。</p>
+            </div>
+          </section>
+          <section>
+            <div class="cloudworks_link container">
+              <div class="row justify-content-around">
+                <div class="col-sm-9 ">
+                  <h3>CloudWorksでのご依頼はこちらから</h3>
+                </div>
+                <div class="col-sm-3">
+                  <a href="#"><img src="../img/croudworks.jpeg" alt="サイトリンク" width="100px" height="100px"></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <form action="" method="post" class="row">
+                <div class="col-sm-10 offset-sm-1">
+                  <div class="control">
+                    <h3>お問合せフォーム</h3>
+                  </div>
+                  <div class="form-group">
+                    <label for="name" class="form-label">名前<span class="required">必須</span></label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="お名前を入力して下さい">
+                  </div>
+                  <div class="form-group">
+                    <label for="mymail" class="form-label">メールアドレス<span class="required">必須</span></label>
+                    <input type="email" name="mymail" class="form-control" placeholder="メールアドレスを入力して下さい">
+                  </div>
+                  <div class="form-group">
+                    <label for="contact" class="form-label">お問合せ内容<span class="required">必須</span></label>
+                      <select name="contact" id="contact" class="form-select" aria-label="Default select example">
+                        <option value="">選択して下さい</option>
+                        <option value="1">仕事のご依頼</option>
+                        <option value="2">仕事の見積り等</option>
+                        <option value="3">カウンセリング</option>
+                        <option value="4">その他</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="FormControlTextarea" class="form-label">お問合せ詳細</label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="5" placeholder="例) 何秒の動画でいくら位費用がかかるか知りたい"></textarea>
+                  </div>
+                    <button type="submit">送信</button>
+
+                </div>
+              </form>
+            </div>
+          </section>
+        </article>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="col text-end">
+            <p class="fs-6">© sasaki 2022</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+
+</html>
